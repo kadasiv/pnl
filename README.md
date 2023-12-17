@@ -1,4 +1,4 @@
-# Ubuntu LAMP Setup Script
+# Ubuntu install Lamp
 
 Bash scripts to automatically setup LAMP server following best practices.
 
@@ -7,7 +7,7 @@ Current version: `lamp-ubuntu20.sh`
 ## How to use
 
   * Log in to your fresh Ubuntu server as root
-  * Download the most recent version of the script: `wget https://raw.githubusercontent.com/Lyquix/ubuntu-lamp/master/lamp-ubuntu22.sh`
+  * Download the most recent version of the script: `wget https://raw.githubusercontent.com/kadasiv/pnl/master/lamp-ubuntu20.sh`
   * Change permissions: `chmod 755 lamp-ubuntu22.sh`
   * Run and follow prompts: `./lamp-ubuntu22.sh`
 
@@ -174,3 +174,4 @@ table_cache = 64
 log_slow_queries = /var/log/mysql/mysql-slow.log
 long_query_time = 1
 ```
+## TANK YOU. 
